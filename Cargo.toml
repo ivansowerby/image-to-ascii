@@ -1,0 +1,15 @@
+[package]
+name = "image_to_ascii"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ivan (Github: <ivanl-exe>) <ivan.exe@pm.me>"]
+description = "A Rust application for converting images into an output of ASCII characters based on RGBA pixel values"
+keywords = ["image", "ascii", "ASCII", "image to ascii", "image manipulation"]
+readme = "README.md"
+homepage = "https://github.com/ivanl-exe/image_to_ascii"
+license = "MIT"
+license-file = "LICENSE"
+
+[dependencies]
+image = "0.24.0"
+read_input = "0.8"
